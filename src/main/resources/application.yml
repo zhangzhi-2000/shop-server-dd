@@ -1,0 +1,11 @@
+spring:
+  profiles:
+    active: dev
+server:
+  port: 8888
+  servlet:
+    context-path: /shop-server
+mybatis:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+
