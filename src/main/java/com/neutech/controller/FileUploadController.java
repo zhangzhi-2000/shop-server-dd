@@ -53,7 +53,6 @@ public class FileUploadController {
         } catch (IOException e) {
             e.printStackTrace();
         }
-
         return ResultVO.success();
     }
 }
